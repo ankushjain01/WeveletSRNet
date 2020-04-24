@@ -31,7 +31,7 @@ parser.add_argument('--dataroot', default="FEI", type=str, help='path to dataset
 parser.add_argument('--testfiles', default="test.list", type=str, help='the list of training files')
 parser.add_argument('--testroot', default="FEI", type=str, help='path to dataset')
 parser.add_argument('--trainsize', type=int, help='number of training data', default=360)
-parser.add_argument('--testsize', type=int, help='number of testing data', default=40)
+parser.add_argument('--testsize', type=int, help='number of testing data', default=290)
 parser.add_argument('--workers', type=int, help='number of data loading workers', default=2)
 parser.add_argument('--batchSize', type=int, default=64, help='input batch size')
 parser.add_argument('--test_batchSize', type=int, default=64, help='test batch size')
